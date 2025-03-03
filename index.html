@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A news homepage to showcase the latest articles and trends in technology and more.">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- tailwind css -->
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <title>Frontend Mentor | News homepage</title>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="container">
+    <img class="logo" src="assets/images/logo.svg" alt="Site logo with the letter W." />
+    <nav class="navigation">
+      <ul>
+        <li><a class="menu-link" href="#">Home</a></li>
+        <li><a class="menu-link" href="#new">New</a></li>
+        <li><a class="menu-link" href="#popular">Popular</a></li>
+        <li><a class="menu-link" href="#">Trending</a></li>
+        <li><a class="menu-link" href="#">Categories</a></li>
+      </ul>
+    </nav>
+    <img class="menu-icon" src="assets/images/icon-menu.svg" alt="Menu icon" aria-label="Open menu" />
+  </header>
+
+  <!-- Main Content -->
+  <main class="container">
+    <section class="hero-section">
+      <img class="hero-img" src="assets/images/image-web-3-mobile.jpg" alt="An illustration of the Web 3.0 evolution" />
+      <div class="hero-text">
+        <h1>The Bright Future of Web 3.0?</h1>
+        <div class="text-content">
+          <p>
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is
+            it really fulfilling its promise?
+          </p>
+          <a href="#">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- New Articles Section -->
+    <section id="new" class="new-section">
+      <h2>New</h2>
+      <article>
+        <h3>Hydrogen VS Electric Cars</h3>
+        <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </article>
+      <article>
+        <h3>The Downsides of AI Artistry</h3>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+      </article>
+      <article>
+        <h3>Is VC Funding Drying Up?</h3>
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </article>
+    </section>
+
+    <!-- Popular Articles Section -->
+    <section id="popular" class="top-section">
+      <article>
+        <img class="article-img" src="assets/images/image-retro-pcs.jpg"
+          alt="Classic PCs enhanced with modern hardware" />
+        <div class="top-article">
+          <h2>01</h2>
+          <h3>Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </article>
+      <article>
+        <img class="article-img" src="assets/images/image-top-laptops.jpg"
+          alt="A close-up shot of a modern laptop keyboard" />
+        <div class="top-article">
+          <h2>02</h2>
+          <h3>Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </article>
+      <article>
+        <img class="article-img" src="assets/images/image-gaming-growth.jpg"
+          alt="A gaming controller floating just above a hand" />
+        <div class="top-article">
+          <h2>03</h2>
+          <h3>The Growth of Gaming</h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <!-- Aside Mobile Menu -->
+  <aside class="hidden" aria-hidden="true">
+    <div class="aside-menu">
+      <img class="close-menu-icon" src="assets/images/icon-menu-close.svg" alt="Close menu icon" />
+      <nav>
+        <ul>
+          <li><a class="menu-link" href="#">Home</a></li>
+          <li><a class="menu-link" href="#new">New</a></li>
+          <li><a class="menu-link" href="#popular">Popular</a></li>
+          <li><a class="menu-link" href="#">Trending</a></li>
+          <li><a class="menu-link" href="#">Categories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="flex-center">
+    <div class="attribution">Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+    </div>
+    <span class="boxv">&boxv;</span>
+    <div class="attribution">Coded by
+      <a href="https://www.frontendmentor.io/profile/chot0005" target="_blank">Nichada</a>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
